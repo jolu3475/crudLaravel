@@ -1,0 +1,53 @@
+# Ignore vendor/ directory
+/vendor/
+
+# Ignore node_modules/ directory
+/node_modules/
+
+# Ignore storage/ directory
+/storage/
+
+# Ignore .env file
+/.env
+
+# Ignore log files
+/*.log
+
+# Ignore IDE files
+/*.sublime-project
+/*.sublime-workspace
+/*.komodoproject
+/_ide_helper.php
+/*.idea
+/*.vscode
+
+# Ignore database files
+/*.sql
+/*.sqlite
+
+# Ignore OS generated files
+/*.DS_Store
+/*.Thumbs.db
+/*.ehthumbs.db
+
+# Ignore user created files
+/*.bak
+/*.orig
+
+# Ignore system files
+/*.bash_history
+/*.htpasswds
+/*.htpasswd
+/*.viminfo
+/*.profile
+/*.bashrc
+/*.bash_logout
+/*.bash_history
+/*.modgit/
+/*.modman/
+/*.pkginfo
+/*.nohup.out
+/*.Homestead.yaml
+/*.Homestead.json
+/*.vagrant
+/*.phpunit.result.cache
