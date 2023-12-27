@@ -37,7 +37,7 @@
         </div>
         <div class="btn">
             <input type="submit" value="Ok">
-            <input type="button" value="Cancel">
+            <button><a href="{{route('tdl.index')}}">Cancel</a></button>
         </div>
     </form>
 </body>

@@ -28,7 +28,7 @@ class userStatus extends Controller
 
         $newTask = tdl::create($data);
 
-        return redirect(route('tdl.index'));
+        return redirect(route('tdl.index'))->with('success', 'The task have been added succesfully');
     }
 
     public function edit(tdl $todo)

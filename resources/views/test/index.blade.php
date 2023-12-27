@@ -45,9 +45,19 @@
                         }
                     ?>
                     </td>
-                    <td>{{$to->created_at}}</td>
+                    <td>{{$to->updated_at}}</td>
                     <td>
+                        <?php
+                        if($to['status'] === 0) {
+                            ?>
                         <a href="{{route('tdl.edit',['todo' => $to])}}">Edit</a>
+                        <?php
+                        } else {
+                            ?>
+                        <p>Cannot be edit</p>
+                        <?php
+                        }
+                    ?>
                     </td>
                     <td>
                         <?php
